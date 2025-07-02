@@ -117,8 +117,8 @@ console.log(myArray); // [1, 2, 3, 4, 5]
 
 /*
 do-while loop runs the code in the loop 
-at least one time and then check the
-condition to continue or stop!
+at least one time and then checks the
+condition to continue or break the loop!
 */
 var myArr = [];
 var i = 10
@@ -128,4 +128,4 @@ do {
     i++;
 } while (i < 5)
 
-console.log(i, myArr);
+console.log(i, myArr); // 11, [10]
