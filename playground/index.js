@@ -1,6 +1,3 @@
-// what does this mean ? Math.floor() rounds down, not up ??
-// i should use var or let keyword ??
-
 // operations on Arrays
 var dummyArray = ["Ehsan", true, 2, ["dog", false]];
 
@@ -258,4 +255,20 @@ book.writer = 'new author'; // uses the setter
 
 console.log(book.writer); // prints 'new author'
 
+// To export a variable, function, or class:
+// export { myFunction };   // named export
+// export default MyClass;  // default export
 
+// To import:
+// import { myFunction } from './file.js';     // named import
+// import MyClass from './file.js';            // default import
+
+
+
+
+// Imports *everything* from the file as a single object
+// import * as myModule from './file.js';
+
+// Now you can access exports like:
+// myModule.myFunction();
+// myModule.myVariable;
